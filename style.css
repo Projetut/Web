@@ -1,0 +1,86 @@
+/* ----------------------- Page générale --------------------------- */
+
+html
+{
+	background: #dacdcd;
+}
+
+/* ------------------------- header ------------------------------- */
+
+header
+{
+	color: #30853D;
+	font-size: 24px;
+}
+
+
+/* ---------------------- Content --------------------------- */
+
+#content
+{
+	background: #dacdcd;
+	margin-top: 80px;
+}
+
+.row
+{
+	text-align: center;
+}
+
+a
+{
+	font-size: 18px;
+}
+
+#gauche
+{
+	background: #5c5454;
+	font-size: 24px;	
+	border: ridge black;
+	border-radius: 7%;
+	box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+#droite
+{
+	background: #777474;
+	font-size: 24px;
+	border: ridge black;
+	border-radius: 10%;
+	box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+#juridique,#economie
+{
+	color: black;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+#juridique:hover,#economie:hover
+{
+	color: red;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+/* ---------------------- Styles pour la page economie droit --------------------------- */
+
+#link
+{
+	color: black;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+#link:hover
+{
+	color: grey;
+}
+
+/* ---------------------- footer --------------------------------*/
+
+footer
+{	
+	color: silver;
+}
